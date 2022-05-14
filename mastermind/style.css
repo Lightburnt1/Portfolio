@@ -10,7 +10,9 @@ body {
 }
 
 header {    
-    background-image: linear-gradient(#5DADE2, #b48cff);
+    background-color: #5DADE2;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.26);
     text-align: center;
     border-radius: 3px;
     margin: 0%;

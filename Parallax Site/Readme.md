@@ -1,1 +1,1 @@
-Trying to clone <a href="https://jolly-kalam-23776e.netlify.app/parallaxsite/">Parallax Site</a>
+Trying to clone <a href="https://jolly-kalam-23776e.netlify.app/parallaxsite/" target="_blank">Parallax Site</a>
