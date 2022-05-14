@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(./font/Lato.ttf);
+}
+
+html, body, h1, h2 {
+    font-size: 28px;
+    font-family: 'Lato';
+    font-weight: 350;
+    height: 100%;
+    margin: 0px;
+}
+
+header {
+    background-image: url(./assets/image1.jpg);
+    height: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;  
+    text-align: center;
+    color: white; 
+}
+
+header, .img2, .img3, footer {
+    background-position: top center;
+    background-attachment: fixed;
+    opacity: 70%;
+}
+
+.htxt, .img2txt, .img3txt, .ftxt{
+    letter-spacing: 7px;
+}
+
+.htxt {
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #111;
+    padding: 20px;
+}
+
+.sectionone, .sectiontwo, .sectionthree {
+    text-align: center;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 60px;
+}
+
+.sectionone{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.img2 {
+    height: 400px;
+    background-image: url(./assets/image2.jpg);
+    background-size: cover;    
+    position: relative;
+}
+
+.img2txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.sectiontwo {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.img3 {
+    height: 400px;
+    background-image: url(./assets/image3.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.img3txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+ .sectionthree {
+    background-color: #282e34;
+    color: #ddd;
+ }
+
+ footer {
+    background-image: url(./assets/image1.jpg);
+    height: 100%;    
+    background-position: top center;
+    background-size: auto;
+    background-repeat: no-repeat;   
+    position: relative;    
+ }
+
+.ftxt {
+    padding: 20px;
+    background-color: #111;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: white;
+}
